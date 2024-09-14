@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 case '+':
                     result = parseFloat(firstOperand) + parseFloat(secondOperand);
                     break;
+                    
                 case '-':
                     result = parseFloat(firstOperand) - parseFloat(secondOperand);
                     break;
